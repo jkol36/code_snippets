@@ -1,5 +1,13 @@
-def remove_comma(string):
-	word = string.split(',')
-	first_word = word[0]
-	second_word = word[1]
-	return first_word
+#Script Name: remove_comma.py
+
+#Author: Jon Kolman
+
+#Created : October 15th, 2015
+
+#Description : Removes the comma from a string
+
+def remove_comma_from_string(string):
+	return string.replace(',', '')
+
+
+	
